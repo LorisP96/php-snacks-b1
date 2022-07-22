@@ -4,35 +4,6 @@ Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squ
 Stampiamo a schermo tutte le partite con questo schema.
 Olimpia Milano - Cantù | 55-60 -->
 
-<?php
-    $teams = [
-        [
-            'team-home' => 'Ascoli',
-            'team-score-home' => '420',
-            'team-host' => 'Milano',
-            'team-score-host' => '1',
-        ],
-        [
-            'team-home' => 'Brindisi',
-            'team-score-home' => '82',
-            'team-host' => 'Venezia',
-            'team-score-host' => '81',
-        ],
-        [
-            'team-home' => 'Firenze',
-            'team-score-home' => '42',
-            'team-host' => 'Torino',
-            'team-score-host' => '50',
-        ],
-        [
-            'team-home' => 'Verona',
-            'team-score-home' => '74'
-            'team-host' => 'Pisa',
-            'team-score-host' => '89',
-        ],
-    ];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,6 +13,34 @@ Olimpia Milano - Cantù | 55-60 -->
     <title>Snack-1</title>
 </head>
 <body>
+    <?php
+        $teams = [
+            [
+                'team-home' => 'Ascoli',
+                'team-score-home' => '420',
+                'team-host' => 'Milano',
+                'team-score-host' => '1',
+            ],
+            [
+                'team-home' => 'Brindisi',
+                'team-score-home' => '82',
+                'team-host' => 'Venezia',
+                'team-score-host' => '81',
+            ],
+            [
+                'team-home' => 'Firenze',
+                'team-score-home' => '42',
+                'team-host' => 'Torino',
+                'team-score-host' => '50',
+            ],
+            [
+                'team-home' => 'Verona',
+                'team-score-home' => '74'
+                'team-host' => 'Pisa',
+                'team-score-host' => '89',
+            ],
+        ];
+    ?>
     <?php for($i = 0; $i < count($teams); $i++) { ?>
         <?php $thisTeam = $teams[$i]; ?>
         <h2>
