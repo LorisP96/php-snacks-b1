@@ -14,16 +14,15 @@ Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà co
         $myArray = [];
 
         while(count($myArray) < 15) {
-            $randomNum = rand(1, 50);
+            $randomNum = rand(1, 20);
             if(!in_array($randomNum, $myArray)) {
                 $myArray[] = $randomNum;
-            };  
+            };
         };
     ?>
     <h1>
         <?php for($i = 0; $i < count($myArray); $i++) { 
-            $myNum += $myArray[$i];
-            echo $myNum . ',';
+            echo $myArray[$i] . ',';
         } ?>
     </h1>
 </body>
