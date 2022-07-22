@@ -35,7 +35,7 @@ Olimpia Milano - Cantù | 55-60 -->
             ],
             [
                 'team-home' => 'Verona',
-                'team-score-home' => '74'
+                'team-score-home' => '74',
                 'team-host' => 'Pisa',
                 'team-score-host' => '89',
             ],
