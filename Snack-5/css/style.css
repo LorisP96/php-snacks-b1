@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.box {
+    width: 50%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.box:first-child {
+    background-color: grey;
+}
+
+.box:last-child {
+    background-color: green;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 28px;
+}
